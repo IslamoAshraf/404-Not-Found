@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+}
+
+.logo {
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+  margin-top: 40px;
+  margin-left: 77px;
+}
+
+.centre {
+  margin: 200px 90px 0 77px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.centre img {
+  width: 550px;
+  height: 420px;
+  object-fit: cover;
+  margin: 0 120px 0 0;
+}
+.centre .right {
+  width: auto;
+}
+.centre .right p.head {
+  font-family: "Space Mono", monospace;
+  font-size: 64px;
+  margin: auto;
+  font-weight: bold;
+  color: #333333;
+}
+
+.centre .right p.para {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 36px 0 88px 0;
+}
+
+.centre .right .button {
+  display: inline-flex;
+  font-family: Space Mono;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 24px 43px;
+  color: white;
+  background: #333333;
+  cursor: pointer;
+}
+
+footer {
+  margin: 308px auto 24px auto;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+@media (max-width: 375px) {
+  .logo {
+    margin: 20px 0 0 24px;
+  }
+
+  .centre {
+    margin: 64px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .centre img {
+    width: 290px;
+    height: 240px;
+    object-fit: cover;
+    margin: 0 0 77px 0;
+  }
+  .centre .right {
+    margin: 0 0 0 20px;
+  }
+  .centre .right p.head {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .centre .right p.para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+
+  }
+}
