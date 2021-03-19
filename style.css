@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .centre img {
   width: 550px;
@@ -95,6 +95,5 @@ footer {
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-
   }
 }
